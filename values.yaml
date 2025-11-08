@@ -33,5 +33,5 @@ statefulset:
   enabled: false
 
 env:
-  - name: BACKEND_DATA_URL
+  - name: DATA_SERVICE_URL
     value: "http://backend-data:80"
